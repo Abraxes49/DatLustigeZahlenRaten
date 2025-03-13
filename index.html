@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./guessNumber.css">
+    
+    <title>Guess Number</title>
+</head>
+
+<body style="background: #c7c7c7">
+    <div class="game-window" onclick="startGuessNumber();">
+        <h1 id="game-text1">
+            Zahlen Raten
+        </h1>
+        <p id="game-text2">Press Start</p>
+    </div>
+
+    <form onsubmit="return checkInput();">
+        <!-- Eingabefeld -->
+        
+        <input id="input" class="input-window" type="text">
+    </form>
+    <div class="game-window2" onclick="startGuessNumber();">
+        <h1 id="game-text1">
+            Your Causalties
+        </h1>
+        <p id="game-text2"></p>
+    </div>
+    </div>
+    <script src="./guessNumber.js"></script>
+</body>
+
+</html>
