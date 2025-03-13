@@ -1,0 +1,30 @@
+.game-window {
+    margin: 30px auto;
+    display: block;
+    border: solid rgb(111, 111, 111) 10px;
+    border-radius: 7px;
+    border-style: outset;
+    width: 18rem;
+}
+
+.game-window:hover {
+    border-color: rgb(204, 13, 13);
+    cursor:pointer;
+
+}
+
+.input-window {
+    margin: 30px auto;
+    display: block;
+    height: 2rem;
+    font-size: 24px;
+}
+
+.game-window2 {
+    margin: 30px auto;
+    display: block;
+    border: solid rgb(23, 0, 230) 10px;
+    border-radius: 7px;
+    border-style: outset;
+    width: 18rem;
+}
